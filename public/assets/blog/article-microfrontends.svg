@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="290" viewBox="0 0 400 290" fill="none">
+<defs><linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFE7F0"/><stop offset="1" stop-color="#FFC6E3"/></linearGradient></defs>
+<path d="M275 3 C381 16 414 82 393 169 C369 258 313 284 251 284 Q223 223 252 166 Q214 97 275 3 Z" fill="url(#p)"/>
+<g stroke="#18131F" stroke-width="5" stroke-linejoin="round">
+<path d="M125 89 L189 57 L251 89 L188 123 Z" fill="#C79CFF"/><path d="M125 89 V190 L187 225 V123 Z" fill="#9D65EA"/><path d="M187 123 L251 89 V192 L187 225 Z" fill="#7B4AD0"/>
+<path d="M283 145 L316 128 L347 145 L316 163 Z" fill="#B5E4FF"/><path d="M283 145 V193 L316 212 V163 Z" fill="#72BCF4"/><path d="M316 163 L347 145 V193 L316 212 Z" fill="#4DA6ED"/>
+<path d="M267 210 L293 197 L318 210 L293 223 Z" fill="#FFDA58"/><path d="M267 210 V245 L293 259 V223 Z" fill="#EAB24C"/><path d="M293 223 L318 210 V245 L293 259 Z" fill="#FFC94B"/>
+<path d="M352 220 L372 210 L391 220 L373 230 Z" fill="#C9A5FF"/><path d="M352 220 V249 L373 261 V230 Z" fill="#AE80EE"/><path d="M373 230 L391 220 V249 L373 261 Z" fill="#9566D6"/>
+</g><path d="M252 151 L280 151 M349 166 L364 194" stroke="#18131F" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 9"/>
+<circle cx="270" cy="153" r="21" fill="#FFFFFF" stroke="#18131F" stroke-width="4"/><text x="270" y="161" font-family="Arial,sans-serif" font-size="20" font-weight="900" fill="#18131F" text-anchor="middle">vs</text>
+</svg>

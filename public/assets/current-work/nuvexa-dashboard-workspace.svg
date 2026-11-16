@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="550" viewBox="0 0 1280 550" fill="none"><title>Nuvexa Dashboard Workspace.Svg</title>
+<defs>
+ <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D7BDFF"/><stop offset=".5" stop-color="#9D75ED"/><stop offset="1" stop-color="#7144D8"/></linearGradient>
+ <linearGradient id="base" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D6C3FF"/><stop offset="1" stop-color="#8D65DB"/></linearGradient>
+ <linearGradient id="spark" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#B784FF"/><stop offset="1" stop-color="#7F47EA"/></linearGradient>
+ <linearGradient id="chart" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#BFA7FC" stop-opacity=".65"/><stop offset="1" stop-color="#E8E2FB" stop-opacity=".12"/></linearGradient>
+ <linearGradient id="donut" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7847D7"/><stop offset=".48" stop-color="#B671E7"/><stop offset="1" stop-color="#6BE6CD"/></linearGradient>
+ <filter id="shadow" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="14"/></filter>
+</defs>
+<!-- Ground shadow -->
+<ellipse cx="611" cy="500" rx="525" ry="24" fill="#291447" opacity=".13" filter="url(#shadow)"/>
+<!-- Coffee mug -->
+<path d="M103 374h126l-10 95q-7 25-28 25h-48q-22-2-27-23z" fill="#FFF9ED" stroke="#191724" stroke-width="9" stroke-linejoin="round"/>
+<path d="M229 391c61-7 58 74-1 67" stroke="#191724" stroke-width="13" fill="none" stroke-linecap="round"/>
+<path d="M125 374h82" stroke="#191724" stroke-width="8" stroke-linecap="round"/>
+<path d="M146 429l25-18 22 22" stroke="#8D4AE7" stroke-width="11" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M146 451l30-12" stroke="#A475F3" stroke-width="7" stroke-linecap="round"/>
+<path d="M157 353c-19-18 13-24-2-45M185 359c-10-18 19-29 2-47" stroke="#242035" stroke-width="5" stroke-linecap="round" fill="none"/>
+<!-- Laptop screen frame -->
+<rect x="250" y="42" width="750" height="421" rx="33" fill="#271C49" stroke="#191724" stroke-width="12"/>
+<rect x="261" y="53" width="727" height="397" rx="25" fill="url(#frame)"/>
+<rect x="278" y="76" width="692" height="352" rx="15" fill="#FDFCFD"/>
+<!-- Sidebar -->
+<path d="M278 90q0-14 14-14h134v352H291q-13 0-13-15z" fill="#21183C"/>
+<text x="301" y="111" font-family="Arial,sans-serif" font-size="24" font-style="italic" font-weight="bold" fill="white">Nuvexa</text>
+<rect x="291" y="130" width="117" height="39" rx="10" fill="#40316E"/>
+<path d="M308 152l12-11 12 11v13h-7v-8h-10v8h-7z" stroke="#E0D5FF" stroke-width="3" stroke-linejoin="round" fill="none"/>
+<g fill="none" stroke="#C7B8F4" stroke-width="3" stroke-linejoin="round">
+<path d="M310 189l16-7 16 7-16 7zM310 199l16 7 16-7"/>
+<circle cx="326" cy="239" r="7"/><path d="M311 260c1-13 29-13 30 0"/>
+<rect x="314" y="286" width="24" height="20" rx="3"/><path d="M319 281v8m14-8v8M316 294h20"/>
+<path d="M310 351v-11m10 11v-19m10 19v-29m10 29v-14M305 352h42"/>
+<circle cx="326" cy="386" r="10"/><path d="M326 370v4m0 24v4m-16-16h-4m40 0h-4"/>
+</g>
+<!-- top search + avatar -->
+<rect x="451" y="91" width="200" height="22" rx="11" fill="#F1F0F7"/>
+<circle cx="468" cy="102" r="6" stroke="#B8B2C9" stroke-width="2"/><path d="M473 107l7 6" stroke="#B8B2C9" stroke-width="2"/>
+<circle cx="917" cy="100" r="16" fill="#DED5FF"/><circle cx="917" cy="97" r="5" fill="#403266"/><path d="M909 108q8-9 16 0" fill="#403266"/>
+<!-- 4 mini KPI cards -->
+<rect x="451" y="129" width="112" height="62" rx="11" fill="#FCE7EF"/>
+<rect x="573" y="129" width="112" height="62" rx="11" fill="#F3EEFF"/>
+<rect x="695" y="129" width="112" height="62" rx="11" fill="#E9FAF5"/>
+<rect x="817" y="129" width="112" height="62" rx="11" fill="#FFF5D8"/>
+<g fill="none" stroke="#44365E" stroke-width="3" stroke-linecap="round">
+<path d="M466 174v-21l15-8m-15 29h27m-21-11 7-6 6 3 7-11"/>
+<circle cx="603" cy="150" r="7"/><circle cx="626" cy="150" r="7"/><path d="M591 175q0-20 24-19 25 0 25 19"/>
+<rect x="713" y="144" width="29" height="29" rx="4"/><path d="M719 139v11m17-11v11m-17 10h17"/>
+<path d="M839 150l19-11 19 11-19 11-19-11zm0 10l19 11 19-11"/>
+</g>
+<g fill="#B7AFCE"><rect x="498" y="145" width="46" height="5" rx="2"/><rect x="498" y="159" width="35" height="5" rx="2"/><rect x="498" y="171" width="25" height="5" rx="2"/>
+<rect x="647" y="145" width="25" height="5" rx="2"/><rect x="647" y="158" width="29" height="5" rx="2"/><rect x="647" y="170" width="20" height="5" rx="2"/>
+<rect x="750" y="146" width="44" height="5" rx="2"/><rect x="750" y="161" width="35" height="5" rx="2"/><rect x="882" y="145" width="34" height="5" rx="2"/><rect x="882" y="160" width="28" height="5" rx="2"/></g>
+<!-- Graph panel -->
+<rect x="451" y="204" width="311" height="142" rx="13" fill="#F6F4FC"/>
+<rect x="470" y="220" width="95" height="8" rx="4" fill="#D5D0E5"/>
+<path d="M467 311c33 4 52-29 80-25 28 4 43-35 72-31 30 4 37-21 63-24 23-3 35 15 63-2v97H467z" fill="url(#chart)"/>
+<path d="M467 311c33 4 52-29 80-25 28 4 43-35 72-31 30 4 37-21 63-24 23-3 35 15 63-2" stroke="#AC83EB" stroke-width="4" stroke-linecap="round" fill="none"/>
+<path d="M470 322h273" stroke="#DCD7E9" stroke-width="2"/>
+<!-- donut panel -->
+<rect x="777" y="204" width="152" height="142" rx="13" fill="#F6F4FC"/>
+<circle cx="852" cy="271" r="45" stroke="#E4DEEF" stroke-width="19" fill="none"/>
+<circle cx="852" cy="271" r="45" stroke="url(#donut)" stroke-width="19" stroke-dasharray="193 283" stroke-linecap="round" fill="none" transform="rotate(-90 852 271)"/>
+<circle cx="852" cy="271" r="45" stroke="#FFB6D7" stroke-width="19" stroke-dasharray="45 283" stroke-dashoffset="-198" stroke-linecap="round" fill="none" transform="rotate(-90 852 271)"/>
+<!-- lower data tiles -->
+<rect x="451" y="357" width="225" height="55" rx="11" fill="#F6F4FC"/>
+<rect x="688" y="357" width="241" height="55" rx="11" fill="#F6F4FC"/>
+<g fill="#CBC4DD"><rect x="467" y="370" width="83" height="6" rx="3"/><rect x="467" y="383" width="127" height="6" rx="3"/><rect x="467" y="396" width="65" height="6" rx="3"/><rect x="701" y="370" width="70" height="6" rx="3"/><rect x="701" y="383" width="132" height="6" rx="3"/><rect x="701" y="396" width="98" height="6" rx="3"/></g>
+<circle cx="913" cy="383" r="6" fill="#C977DA"/>
+<!-- laptop keyboard/base -->
+<path d="M227 443h783l58 48q2 17-28 24H199q-33-1-26-24z" fill="url(#base)" stroke="#191724" stroke-width="10" stroke-linejoin="round"/>
+<path d="M194 488h855q-11 11-35 11H230q-25 0-36-11z" fill="#6843B3" opacity=".7"/>
+<rect x="520" y="454" width="182" height="11" rx="5" fill="#AB8CE1"/>
+<!-- plant -->
+<path d="M1073 382c-42-29-42-86-34-138 47 14 72 64 62 102 4-80 51-143 95-156 9 85-18 130-75 165 38-39 70-29 105-13-22 45-68 63-110 54" fill="#5ACE57" stroke="#1A2530" stroke-width="7" stroke-linejoin="round"/>
+<path d="M1099 372c-2-65 11-111 54-153M1105 377c-11-42-28-67-50-90M1112 380c23-26 49-31 75-29" stroke="#298E45" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M1047 374h157l-14 112q-2 16-20 16h-92q-19-2-22-19z" fill="#FFF9F4" stroke="#191724" stroke-width="9" stroke-linejoin="round"/>
+<path d="M1062 398h129" stroke="#E3CFDB" stroke-width="7"/>
+</svg>

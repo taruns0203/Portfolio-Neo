@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="650" viewBox="0 0 850 650" fill="none" role="img">
+<defs>
+ <linearGradient id="gRocket" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFDF9"/><stop offset="1" stop-color="#F3F2F8"/></linearGradient>
+ <linearGradient id="gPink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FF93C5"/><stop offset="1" stop-color="#F25C9A"/></linearGradient>
+ <linearGradient id="gPurple" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#D7B5FF"/><stop offset="1" stop-color="#A87AFF"/></linearGradient>
+ <linearGradient id="gFlame" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FFE56B"/><stop offset="1" stop-color="#FF8F2D"/></linearGradient>
+ <linearGradient id="gGauge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FF5187"/><stop offset="0.34" stop-color="#FFB800"/><stop offset="0.69" stop-color="#B8DE30"/><stop offset="1" stop-color="#35DA69"/></linearGradient>
+ <filter id="hardShadow" x="-30%" y="-30%" width="170%" height="180%"><feDropShadow dx="7" dy="9" stdDeviation="0" flood-color="#191724" flood-opacity=".94"/></filter>
+</defs>
+<!-- main art has a transparent background so it can sit on a real CSS orb -->
+<g transform="translate(280 40) rotate(20 130 165)">
+  <path d="M111 254c-18 32-10 67 12 91 13-30 32-53 31-91Z" fill="url(#gFlame)" stroke="#191724" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M133 257c-8 31-2 49 8 60 11-23 13-36 12-58Z" fill="#FFE45C"/>
+  <path d="M88 194c-46 9-61 47-60 89l61-24 14-40Z" fill="url(#gPink)" stroke="#191724" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M176 194c46 9 61 47 60 89l-61-24-14-40Z" fill="url(#gPink)" stroke="#191724" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M88 230C76 150 91 63 132 18c41 45 56 132 44 212l-44 41-44-41Z" fill="url(#gRocket)" stroke="#191724" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M132 18c-21 24-35 59-42 89h84c-7-30-21-65-42-89Z" fill="url(#gPink)" stroke="#191724" stroke-width="7" stroke-linejoin="round"/>
+  <circle cx="132" cy="154" r="34" fill="#B8E7FF" stroke="#191724" stroke-width="8"/><circle cx="121" cy="141" r="13" fill="#E6F9FF" opacity=".75"/>
+  <path d="M95 229h74" stroke="#191724" stroke-width="7" stroke-linecap="round"/>
+</g>
+<!-- smoke -->
+<g stroke="#191724" stroke-width="7" stroke-linejoin="round" fill="#FFFDF9"><path d="M252 440c-22-28-11-54 17-64 11-35 50-44 72-25 30-22 67 1 67 26 31 0 48 33 35 63Z"/></g>
+<!-- performance browser card -->
+<g filter="url(#hardShadow)">
+ <rect x="361" y="315" width="360" height="260" rx="34" fill="#FFFFFF" stroke="#191724" stroke-width="9"/>
+ <path d="M395 315h292c19 0 34 15 34 34v40H361v-40c0-19 15-34 34-34Z" fill="url(#gPurple)" stroke="#191724" stroke-width="9" stroke-linejoin="round"/>
+ <path d="M362 386h358" stroke="#191724" stroke-width="6"/>
+ <circle cx="396" cy="351" r="10" fill="#FF5A68"/><circle cx="426" cy="351" r="10" fill="#FFD33C"/><circle cx="456" cy="351" r="10" fill="#47D987"/>
+ <path d="M418 512A125 125 0 0 1 668 512" stroke="#191724" stroke-width="45" fill="none" stroke-linecap="butt"/>
+ <path d="M418 512A125 125 0 0 1 668 512" stroke="url(#gGauge)" stroke-width="32" fill="none" stroke-linecap="butt"/>
+ <path d="m541 510 80-60" stroke="#191724" stroke-width="12" stroke-linecap="round"/><circle cx="541" cy="510" r="16" fill="#8E65E6" stroke="#191724" stroke-width="8"/>
+</g>
+<!-- burst doodles -->
+<g stroke="#191724" stroke-width="10" stroke-linecap="round"><path d="M305 103 286 76M271 137l-31-9M340 80l-1-33M744 153l23-26M771 190l30-12"/></g>
+
+</svg>

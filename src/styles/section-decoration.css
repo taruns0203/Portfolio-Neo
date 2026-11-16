@@ -1,0 +1,54 @@
+.section-decorated {
+  isolation: isolate;
+}
+.section-decoration {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  border-radius: inherit;
+  pointer-events: none;
+  user-select: none;
+}
+.section-edge {
+  position: absolute;
+  width: clamp(8rem, 15vw, 15rem);
+  height: auto;
+  opacity: 0.65;
+}
+.section-edge-top {
+  top: calc(clamp(8rem, 15vw, 15rem) * -0.6);
+  right: calc(clamp(8rem, 15vw, 15rem) * -0.45);
+  rotate: -15deg;
+}
+.section-edge-bottom {
+  bottom: calc(clamp(8rem, 15vw, 15rem) * -0.6);
+  left: calc(clamp(8rem, 15vw, 15rem) * -0.25);
+  rotate: 12deg;
+}
+.section-decoration-about .section-edge-top,
+.section-decoration-github .section-edge-top,
+.section-decoration-writing .section-edge-top {
+  right: auto;
+  left: calc(clamp(8rem, 15vw, 15rem) * -0.5);
+  rotate: 180deg;
+}
+.section-decoration-about .section-edge-bottom,
+.section-decoration-github .section-edge-bottom,
+.section-decoration-writing .section-edge-bottom {
+  left: auto;
+  right: calc(clamp(8rem, 15vw, 15rem) * -0.25);
+  transform: scaleX(-1);
+}
+@media (max-width: 47.999rem) {
+  .section-edge {
+    width: 7rem;
+    opacity: 0.45;
+  }
+  .section-edge-top {
+    top: -4.5rem;
+  }
+  .section-edge-bottom {
+    bottom: -4.5rem;
+  }
+}

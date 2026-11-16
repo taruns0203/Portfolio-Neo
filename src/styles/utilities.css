@@ -1,0 +1,43 @@
+@layer components {
+  .control-motion {
+    transition-property:
+      color, background-color, border-color, box-shadow, transform, translate;
+    transition-duration: var(--duration-interaction);
+    transition-timing-function: var(--ease-standard);
+  }
+  .text-link {
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
+    text-decoration-thickness: 1px;
+  }
+  .text-link:hover {
+    color: var(--color-primary);
+    text-decoration-thickness: 2px;
+  }
+  .border-minimal {
+    border: var(--border-minimal);
+  }
+  .border-brutalist {
+    border: var(--border-brutalist);
+  }
+  .border-display {
+    border: var(--border-display);
+  }
+  .section-standard {
+    padding-block: var(--space-section);
+  }
+  .section-roomy {
+    padding-block: var(--space-section-roomy);
+  }
+  .focus-example {
+    outline: 3px solid var(--color-focus);
+    outline-offset: 4px;
+  }
+  .hover-example {
+    transform: translateY(-2px);
+  }
+  .pressed-example {
+    transform: translate(3px, 3px);
+    box-shadow: var(--shadow-pressed);
+  }
+}

@@ -1,0 +1,256 @@
+.writing-layout {
+  display: grid;
+  gap: 2.5rem;
+}
+.writing-layout > .writing-grid {
+  margin-top: 0;
+}
+.writing-top {
+  display: grid;
+  gap: 2.5rem;
+  align-items: center;
+}
+.writing-intro {
+  min-width: 0;
+}
+.writing-heading {
+  margin: 1.5rem 0 0;
+}
+.writing-heading h2 {
+  font-size: clamp(2.8rem, 4.4vw, 4.5rem);
+  letter-spacing: -0.05em;
+  line-height: 1.15;
+}
+.writing-heading h2 span {
+  display: table;
+  position: relative;
+  padding: 0.02em 0.18em 0.1em;
+  margin-top: 0.1em;
+  border-radius: var(--radius-lg);
+  background: var(--color-primary-soft);
+  box-shadow: var(--shadow-brutalist);
+}
+.writing-heading h2 span::after {
+  content: "";
+  position: absolute;
+  width: 0.8em;
+  height: 0.8em;
+  top: -0.5em;
+  right: -0.5em;
+  background: url("/assets/blog/doodle-yellow-burst.svg") center / contain
+    no-repeat;
+}
+.writing-heading p {
+  margin-top: 1.75rem;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  max-width: 42ch;
+}
+.writing-all-link {
+  margin-top: 1.5rem;
+  border-radius: var(--radius-pill);
+  background: var(--color-foreground);
+  color: var(--color-surface);
+}
+.writing-all-link img {
+  filter: brightness(0) invert(1);
+}
+.writing-all-link:hover {
+  background: var(--color-primary);
+}
+.writing-workspace {
+  width: 100%;
+  height: auto;
+}
+.writing-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+.writing-article {
+  min-width: 0;
+}
+.writing-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border-radius: var(--radius-xl);
+  border-color: color-mix(
+    in srgb,
+    var(--color-primary-soft) 30%,
+    var(--color-border)
+  );
+  box-shadow: var(--shadow-minimal);
+  background: linear-gradient(
+    135deg,
+    var(--color-surface) 30%,
+    color-mix(in srgb, var(--color-lavender-surface) 35%, var(--color-surface))
+  );
+}
+.writing-card-top {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.writing-category {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.45rem 0.75rem;
+}
+.writing-reading-time {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.6875rem;
+  white-space: nowrap;
+  color: var(--color-muted-foreground);
+}
+.writing-card-body {
+  position: relative;
+  display: grid;
+  margin-top: 1.5rem;
+  flex: 1;
+}
+.writing-card-copy {
+  position: relative;
+  z-index: 1;
+}
+.writing-card-copy h2,
+.writing-card-copy h3 {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 2vw, 1.75rem);
+  letter-spacing: -0.04em;
+  line-height: 1.18;
+  font-weight: 700;
+}
+.writing-card-copy a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.writing-card-copy p {
+  margin-top: 1rem;
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: var(--color-muted-foreground);
+}
+.writing-card-art {
+  justify-self: end;
+  width: 48%;
+  max-width: 12rem;
+  margin-top: 0.5rem;
+  overflow: hidden;
+  border-radius: 65% 15% 15% 15%;
+  align-self: end;
+}
+.writing-card-art img {
+  width: 100%;
+  height: auto;
+}
+.writing-accent-pink {
+  background: color-mix(in srgb, var(--color-pink) 65%, transparent);
+}
+.writing-accent-mint {
+  background: color-mix(in srgb, var(--color-mint) 65%, transparent);
+}
+.writing-accent-blue {
+  background: color-mix(in srgb, var(--color-blue) 65%, transparent);
+}
+.writing-accent-lavender {
+  background: var(--color-lavender-surface);
+}
+.writing-accent-yellow {
+  background: color-mix(in srgb, var(--color-yellow) 40%, transparent);
+}
+.writing-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+.writing-author {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  min-width: 0;
+}
+.writing-author img {
+  flex-shrink: 0;
+  border-radius: var(--radius-pill);
+}
+.writing-author p {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.writing-author time {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--color-muted-foreground);
+  margin-top: 0.25rem;
+}
+.writing-draft {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.75rem;
+  background: var(--color-lavender-surface);
+  border-radius: var(--radius-pill);
+}
+.writing-article-link {
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  border: var(--border-minimal);
+  border-radius: var(--radius-pill);
+  background: var(--color-surface);
+}
+.writing-article-link:hover {
+  background: var(--color-lavender-surface);
+}
+.writing-index-header {
+  margin-top: 3rem;
+}
+.writing-index-header h1 {
+  margin-top: 0.75rem;
+}
+.writing-index-header > p:last-child {
+  margin-top: 1rem;
+  max-width: 55ch;
+  color: var(--color-muted-foreground);
+}
+@media (min-width: 48rem) {
+  .writing-layout {
+    gap: 3rem;
+  }
+  .writing-top {
+    grid-template-columns: minmax(0, 42fr) minmax(0, 58fr);
+    gap: 2rem;
+  }
+  .writing-heading h2 {
+    font-size: clamp(2.5rem, 4.4vw, 4.5rem);
+  }
+  .writing-heading p {
+    font-size: 1rem;
+  }
+  .writing-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 3.5rem;
+  }
+}
+@media (min-width: 80rem) {
+  .writing-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .writing-heading p {
+    font-size: 1.125rem;
+  }
+  .writing-card {
+    padding: 1.5rem;
+  }
+}

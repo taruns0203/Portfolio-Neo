@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540" fill="none">
+<defs>
+<linearGradient id="lav" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EEDFFF"/><stop offset="1" stop-color="#C59AFC"/></linearGradient>
+<linearGradient id="screen" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FDFDFF"/><stop offset="1" stop-color="#F5EDFF"/></linearGradient>
+<linearGradient id="laptop" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8D5CE1"/><stop offset="1" stop-color="#C49AFF"/></linearGradient>
+<linearGradient id="win" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#BBD4FF"/><stop offset="1" stop-color="#E7C5FF"/></linearGradient>
+<filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#2F134E" flood-opacity="0.12"/></filter>
+</defs>
+
+<!-- background art intentionally has transparency -->
+<circle cx="575" cy="274" r="241" fill="#E3C5FF" opacity="0.8"/>
+<path d="M795 128 Q895 87 991 132 L995 392 Q934 469 839 423 Z" fill="#FFDF70" opacity="0.72"/>
+<!-- floating paper -->
+<g transform="translate(105 66) rotate(-13 72 72)" filter="url(#shadow)">
+<rect x="3" y="7" width="148" height="171" rx="9" fill="#17141F"/>
+<rect x="0" y="0" width="148" height="169" rx="9" fill="#FFF9FF" stroke="#17141F" stroke-width="6"/>
+<path d="M24 43 H104 M24 61 H124 M24 79 H93 M24 97 H119 M24 115 H82" stroke="#17141F" stroke-width="5" stroke-linecap="round" opacity=".86"/>
+</g>
+<!-- light bulb -->
+<g transform="translate(341 12)" stroke="#17141F" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+<path d="M37 101 Q-2 62 13 30 Q23 0 55 5 Q88 9 93 40 Q95 62 73 95 L73 111 H39 Z" fill="#FFDF4E"/>
+<path d="M41 111 H73 V128 H41 Z" fill="#9463F0"/><path d="M43 134 H71"/><path d="M52 129 V135"/>
+<path d="M22 -7 L12 -22 M61 -9 L64 -28 M94 9 L111 -2"/>
+</g>
+<!-- sticky note -->
+<g transform="translate(246 308) rotate(3 82 76)" filter="url(#shadow)">
+<rect x="2" y="9" width="151" height="148" rx="10" fill="#20172C"/>
+<path d="M0 0 H144 Q153 0 153 10 V153 H0 Z" fill="#FFD55C" stroke="#19151E" stroke-width="5"/>
+<rect x="20" y="-10" width="66" height="15" rx="5" fill="#C9A1FF" stroke="#19151E" stroke-width="4"/>
+<path d="M30 65 H105 M30 90 H118 M30 115 H85" stroke="#9A7236" stroke-width="7" opacity=".6" stroke-linecap="round"/>
+</g>
+<!-- laptop screen -->
+<g filter="url(#shadow)">
+<path d="M437 127 Q438 102 463 99 L884 60 Q913 57 916 89 L932 391 L416 414 Z" fill="#241C34" stroke="#18131F" stroke-width="7" stroke-linejoin="round"/>
+<path d="M450 129 Q449 116 467 114 L877 78 Q898 77 899 99 L911 378 L436 398 Z" fill="url(#screen)"/>
+<path d="M450 129 Q449 116 467 114 L877 78 Q898 77 899 99 L901 123 Z" fill="#E7D8FA"/>
+<circle cx="477" cy="128" r="6" fill="#BDA0EA"/><circle cx="497" cy="126" r="6" fill="#C1A7E9"/><circle cx="516" cy="125" r="6" fill="#C1A7E9"/>
+<!-- browser illustration thumbnail -->
+<rect x="487" y="166" width="169" height="119" rx="9" fill="url(#win)"/>
+<circle cx="610" cy="201" r="18" fill="#FFDC4D"/>
+<path d="M492 271 L538 218 L564 247 L602 208 L647 266 L647 278 L492 278Z" fill="#564498"/>
+<path d="M491 267 L519 235 L547 263 L577 240 L609 276 H493Z" fill="#B08BEB"/>
+<!-- article content bars -->
+<g fill="#CBC7E0"><rect x="681" y="167" width="179" height="15" rx="7"/><rect x="681" y="194" width="152" height="11" rx="5"/><rect x="681" y="219" width="180" height="11" rx="5"/><rect x="681" y="244" width="168" height="11" rx="5"/><rect x="489" y="308" width="372" height="12" rx="6"/><rect x="489" y="338" width="334" height="12" rx="6"/></g>
+<path d="M408 397 L932 375 L966 430 Q966 442 951 443 L396 465 Q380 466 388 452 Z" fill="url(#laptop)" stroke="#18131F" stroke-width="7" stroke-linejoin="round"/>
+<path d="M405 445 L955 423" stroke="#BD9AFF" stroke-width="7" stroke-linecap="round"/>
+</g>
+<!-- two books underneath mug -->
+<g transform="translate(758 439)" stroke="#17141F" stroke-width="5">
+<rect x="1" y="35" width="188" height="34" rx="9" fill="#A577F2"/><rect x="0" y="1" width="188" height="38" rx="9" fill="#FFD65B"/><path d="M21 15 H169" stroke="#F9B24E" stroke-width="5"/>
+</g>
+<!-- mug -->
+<g transform="translate(814 300)" stroke="#17141F" stroke-width="6" stroke-linejoin="round">
+<path d="M121 55 Q179 52 165 107 Q158 127 128 118" stroke="#17141F" stroke-width="7"/>
+<path d="M5 37 Q6 21 20 20 H117 Q134 20 133 40 L127 157 Q125 169 107 170 H29 Q13 169 12 153 Z" fill="#FFF4F0"/>
+<ellipse cx="69" cy="26" rx="64" ry="18" fill="#F3E2D7"/><ellipse cx="69" cy="26" rx="49" ry="10" fill="#251B25" stroke="none"/>
+<path d="M51 97 L36 109 L52 122 M87 97 L102 110 L88 122 M77 92 L65 128" stroke-width="5" stroke-linecap="round" fill="none"/>
+</g>
+<!-- playful sparks -->
+<path d="M787 37 L790 4 M821 51 L837 22 M759 62 L734 44" stroke="#17141F" stroke-width="7" stroke-linecap="round"/>
+<path d="M310 287 C342 276 365 287 381 310" stroke="#18131F" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M375 295 L385 312 L365 313" stroke="#18131F" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M952 142 L958 156 L972 162 L958 170 L953 186 L944 171 L933 165 L946 157 Z" fill="#FFDA58" stroke="#18131F" stroke-width="4"/>
+
+</svg>

@@ -1,0 +1,232 @@
+.about-section {
+  overflow: clip;
+}
+.about-layout {
+  display: grid;
+  gap: 3rem;
+}
+.about-eyebrow {
+  border: var(--border-brutalist);
+  box-shadow: var(--shadow-brutalist);
+  padding: 0.625rem 1.5rem;
+  gap: 0.75rem;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 700;
+}
+.about-title {
+  margin-top: 2rem;
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 3.9vw, 4.25rem);
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  line-height: 1.15;
+}
+.about-code {
+  display: inline-block;
+  padding: 0 0.2em 0.06em;
+  border-radius: var(--radius-lg);
+  background: var(--color-yellow);
+  box-shadow: var(--shadow-brutalist);
+}
+.about-arrow {
+  display: inline-block;
+  width: 1.5em;
+  height: auto;
+  margin-left: 0.5em;
+  vertical-align: middle;
+  pointer-events: none;
+}
+.about-biography {
+  margin-top: 2rem;
+  font-size: clamp(1rem, 1.35vw, 1.375rem);
+  line-height: 1.7;
+  letter-spacing: -0.025em;
+}
+.about-biography p + p {
+  margin-top: 1rem;
+}
+.about-biography strong {
+  background: var(--color-lavender-surface);
+  border-radius: var(--radius-sm);
+  padding-inline: 0.25em;
+  box-decoration-break: clone;
+}
+.about-features {
+  display: grid;
+  gap: 1.25rem;
+}
+.about-feature {
+  padding: 1.5rem;
+  box-shadow: 5px 5px 0 var(--color-border-strong);
+}
+.about-feature h3 {
+  margin-top: 0.75rem;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.2;
+}
+.about-feature p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.about-tone-lavender {
+  background: var(--color-lavender-surface);
+}
+.about-tone-yellow {
+  background: color-mix(in srgb, var(--color-yellow) 45%, var(--color-surface));
+}
+.about-tone-mint {
+  background: var(--color-mint);
+}
+.about-tone-pink {
+  background: var(--color-pink);
+}
+.about-art {
+  position: relative;
+  isolation: isolate;
+  padding-top: 22%;
+  pointer-events: none;
+}
+.about-workspace {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+}
+.about-orb {
+  position: absolute;
+  z-index: -1;
+  top: -5%;
+  right: -12%;
+  width: 110%;
+  height: 105%;
+  object-fit: contain;
+}
+.about-code-window {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 27%;
+  width: 28%;
+  height: auto;
+}
+.about-code-tile {
+  position: absolute;
+  left: 21%;
+  top: 0;
+  width: 18%;
+  height: auto;
+}
+.about-rocket {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  top: 17%;
+  width: 19%;
+  height: auto;
+}
+.about-burst {
+  position: absolute;
+  right: 28%;
+  top: 14%;
+  width: 8%;
+  height: auto;
+}
+.about-metrics {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem 0;
+  margin-top: 2.5rem;
+  text-align: center;
+}
+.about-metrics > div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.5rem;
+}
+.about-metrics > div:nth-child(even) {
+  border-left: 1px solid var(--color-border);
+}
+.about-metrics dt {
+  display: contents;
+}
+.about-metric-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.25rem;
+  height: 3.25rem;
+  margin: 0 auto 0.75rem;
+  border-radius: var(--radius-md);
+  order: 0;
+}
+.about-metrics dd {
+  order: 1;
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 1.7vw, 1.875rem);
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.04em;
+}
+.about-metrics dt > span:last-child {
+  order: 2;
+  font-size: 0.875rem;
+}
+@media (min-width: 48rem) {
+  .about-features {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .about-visual {
+    max-width: 48rem;
+    margin-inline: auto;
+    width: 100%;
+  }
+  .about-metrics {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .about-metrics > div + div {
+    border-left: 1px solid var(--color-border);
+  }
+}
+@media (min-width: 64rem) {
+  .about-layout {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    align-items: start;
+  }
+  .about-intro {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .about-features {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .about-visual {
+    grid-column: 2;
+    grid-row: 1 / 3;
+    align-self: center;
+  }
+  .about-feature {
+    padding: 1.25rem;
+  }
+}
+
+.about-education {
+  margin-top: 1.5rem;
+  font-size: 0.9375rem;
+  line-height: 1.65;
+}
+.about-education h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.about-resume {
+  margin-top: 1.5rem;
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="390" viewBox="0 0 360 390" fill="none" role="img" aria-label="achievement trophy illustration.svg">
+<defs>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF093"/><stop offset="0.42" stop-color="#FFD83A"/><stop offset="1" stop-color="#FFA500"/></linearGradient>
+<linearGradient id="plinth" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E3C5FF"/><stop offset="1" stop-color="#8A54E9"/></linearGradient>
+</defs>
+<ellipse cx="178" cy="358" rx="136" ry="15" fill="#B68CF5" opacity=".48"/>
+<!-- handles -->
+<path d="M99 113 C40 97 45 171 80 188 L117 200" stroke="#191724" stroke-width="15" fill="none" stroke-linecap="round"/>
+<path d="M99 113 C40 97 45 171 80 188 L117 200" stroke="#FFCA18" stroke-width="8" fill="none" stroke-linecap="round"/>
+<path d="M253 113 C313 96 309 170 275 187 L240 201" stroke="#191724" stroke-width="15" fill="none" stroke-linecap="round"/>
+<path d="M253 113 C313 96 309 170 275 187 L240 201" stroke="#FFC827" stroke-width="8" fill="none" stroke-linecap="round"/>
+<!-- bowl -->
+<path d="M94 79 Q94 65 110 65 L244 65 Q259 65 259 81 L250 184 Q244 231 176 236 Q113 231 103 184 Z" fill="url(#gold)" stroke="#191724" stroke-width="10" stroke-linejoin="round"/>
+<path d="M121 91 Q113 170 127 200" stroke="#FFF5B1" stroke-width="11" stroke-linecap="round" opacity=".9"/>
+<path d="M174 115 L190 148 L226 154 L201 180 L208 217 L175 199 L143 217 L149 180 L123 154 L159 148Z" fill="#FFFEF2" stroke="#191724" stroke-width="8" stroke-linejoin="round"/>
+<path d="M160 237 L160 268 Q147 284 133 290 L219 290 Q199 279 193 267 L193 237 Z" fill="#FFD53C" stroke="#191724" stroke-width="9"/>
+<path d="M119 285 L233 285 Q241 285 241 297 L241 312 L110 312 L110 297 Q110 285 119 285Z" fill="#FFC700" stroke="#191724" stroke-width="9"/>
+<rect x="94" y="306" width="165" height="33" rx="8" fill="url(#plinth)" stroke="#191724" stroke-width="9"/>
+<rect x="75" y="333" width="203" height="31" rx="8" fill="url(#plinth)" stroke="#191724" stroke-width="9"/>
+
+</svg>

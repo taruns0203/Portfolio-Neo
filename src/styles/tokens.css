@@ -1,0 +1,86 @@
+/* Tailwind v4 theme variables are the single source of truth. */
+@theme {
+  --color-*: initial;
+  --color-background: #fffcf7;
+  --color-surface: #ffffff;
+  --color-foreground: #191724;
+  --color-muted-foreground: #5f5b68;
+  --color-primary: #7137e8;
+  --color-primary-soft: #c7a7ff;
+  --color-primary-foreground: #ffffff;
+  --color-yellow: #ffda58;
+  --color-pink: #ffadd1;
+  --color-mint: #a8edd8;
+  --color-blue: #b8dfff;
+  --color-coral: #ff987a;
+  --color-lavender-surface: #f3eaff;
+  --color-border: #dedbe2;
+  --color-border-strong: #191724;
+  --color-focus: #7137e8;
+  --color-success: #21634c;
+  --color-error: #b4233c;
+  --color-warning: #835600;
+  --color-disabled: #eeebef;
+  --color-disabled-foreground: #6c6673;
+  --color-accent-pink: #f77eaf;
+  --color-accent-mint: #65e2c6;
+
+  --spacing: 0.25rem;
+  --radius-*: initial;
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 1.75rem;
+  --radius-pill: 9999px;
+  --shadow-*: initial;
+  --shadow-minimal: 0 8px 32px rgb(25 23 36 / 0.06);
+  --shadow-brutalist: 4px 4px 0 var(--color-border-strong);
+  --shadow-brutalist-lg: 6px 6px 0 var(--color-border-strong);
+  --shadow-pressed: 1px 1px 0 var(--color-border-strong);
+  --container-page: 80rem;
+  --container-home: 105rem;
+  --container-prose: 65ch;
+  --text-display-xl: clamp(3.5rem, 6vw, 6rem);
+  --text-display-lg: clamp(2.75rem, 5vw, 4.75rem);
+  --text-hero: clamp(3.4rem, 5.1vw, 5.8rem);
+  --text-heading-1: clamp(2.5rem, 4.5vw, 4.25rem);
+  --text-heading-2: clamp(2rem, 3.5vw, 3.25rem);
+  --text-heading-3: clamp(1.5rem, 2.5vw, 2rem);
+  --text-body-lg: 1.125rem;
+  --text-body: 1rem;
+  --text-small: 0.875rem;
+  --text-caption: 0.75rem;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+}
+
+@theme inline {
+  --font-display: var(--font-space-grotesk), sans-serif;
+  --font-sans: var(--font-inter), sans-serif;
+  --font-mono: var(--font-jetbrains-mono), monospace;
+}
+
+:root {
+  color-scheme: light;
+  --border-minimal: 1px solid var(--color-border);
+  --border-brutalist: 2px solid var(--color-border-strong);
+  --border-display: 3px solid var(--color-border-strong);
+  --duration-interaction: 180ms;
+  --space-section: 3.5rem;
+  --space-section-roomy: 4.5rem;
+  --gutter: 1.25rem;
+}
+
+@media (min-width: 48rem) {
+  :root {
+    --space-section: 4.5rem;
+    --space-section-roomy: 6rem;
+    --gutter: 2rem;
+  }
+}
+@media (min-width: 64rem) {
+  :root {
+    --space-section: 6rem;
+    --space-section-roomy: 8rem;
+    --gutter: 3rem;
+  }
+}

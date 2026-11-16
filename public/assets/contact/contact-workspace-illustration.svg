@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" fill="none" role="img" aria-label="Stylized purple coding laptop with a plant, coffee mug and books">
+
+<defs>
+<linearGradient id="screenFrame" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#BBA5FF"/><stop offset="0.68" stop-color="#9C79EE"/><stop offset="1" stop-color="#6C4AA9"/></linearGradient>
+<linearGradient id="keyboard" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E6D6FF"/><stop offset="1" stop-color="#9F7CF1"/></linearGradient>
+<linearGradient id="display" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#343248"/><stop offset="1" stop-color="#161827"/></linearGradient>
+<linearGradient id="cup" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#F6E6D8"/></linearGradient>
+<linearGradient id="bookYellow" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FFEA82"/><stop offset="1" stop-color="#F4BE28"/></linearGradient>
+<filter id="ambient" x="-20%" y="-100%" width="140%" height="300%"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<ellipse cx="420" cy="424" rx="340" ry="15" fill="#8A64E9" opacity="0.27" filter="url(#ambient)"/>
+<ellipse cx="420" cy="417" rx="342" ry="12" fill="#D5B8FF" opacity="0.75"/>
+<!-- plant behind laptop -->
+<g stroke="#191724" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M208 290 C156 255 138 199 120 145 C171 144 210 188 218 259Z" fill="#43D745"/>
+  <path d="M221 298 C180 240 190 140 220 102 C254 154 246 237 224 275Z" fill="#52DF49"/>
+  <path d="M236 295 C244 235 285 166 325 157 C327 216 282 265 242 289Z" fill="#2FBF42"/>
+  <path d="M212 302 C195 250 156 227 135 223 C139 267 168 300 210 314Z" fill="#60EA68"/>
+  <path d="M244 305 C279 277 312 273 330 286 C300 318 267 327 244 327Z" fill="#4EEB57"/>
+  <path d="M181 281 L282 281 L269 383 Q230 400 192 382Z" fill="url(#cup)"/>
+  <path d="M173 283 Q231 270 289 283" fill="none"/>
+</g>
+<!-- laptop screen -->
+<g stroke="#191724" stroke-width="7" stroke-linejoin="round">
+ <path d="M300 136 Q302 119 321 119 L610 121 Q631 121 631 143 L606 339 L278 332Z" fill="url(#screenFrame)"/>
+ <path d="M317 146 L607 146 L589 308 L295 307Z" fill="url(#display)"/>
+</g>
+<circle cx="321" cy="164" r="7" fill="#FF6676"/><circle cx="344" cy="164" r="7" fill="#FFD858"/><circle cx="367" cy="164" r="7" fill="#55E7A0"/>
+<g stroke-width="7" stroke-linecap="round">
+<path d="M330 200 h55" stroke="#EF78D0"/><path d="M336 222 h35" stroke="#986FF3"/><path d="M383 222 h35" stroke="#F3C75B"/>
+<path d="M348 245 h83" stroke="#66D9D0"/><path d="M348 266 h48" stroke="#A7EA8C"/><path d="M408 266 h51" stroke="#FF8CC4"/>
+<path d="M360 288 h66" stroke="#E79BFF"/><path d="M432 288 h37" stroke="#F7D167"/>
+</g>
+<g stroke="#F9F4FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><path d="M532 196 l-20 18 20 17 M555 196 l20 18 -20 17 M552 194 l-13 40"/></g>
+<!-- laptop base and keyboard -->
+<g stroke="#191724" stroke-width="7" stroke-linejoin="round">
+ <path d="M284 328 L605 328 L687 394 Q689 401 678 405 L225 405 Q211 404 214 396Z" fill="url(#keyboard)"/>
+ <path d="M214 397 Q223 415 247 416 L665 414 Q681 413 688 398" fill="#8064D2"/>
+</g>
+<g fill="#604B9C" opacity="0.9">
+<path d="M319 345 h46 l7 8 h-53z M374 345 h46 l7 8 h-47z M428 345 h45 l7 8 h-45z M482 345 h46 l7 8 h-45z M537 345 h40 l8 8 h-43z"/>
+<path d="M304 359 h50 l9 8 h-54z M367 359 h50 l9 8 h-52z M430 359 h50 l9 8 h-52z M493 359 h50 l9 8 h-52z M553 359 h40 l9 8 h-44z"/>
+<path d="M293 373 h43 l9 8 h-47z M350 373 h54 l9 8 h-57z M419 373 h108 l10 8 h-113z M544 373 h37 l10 8 h-42z"/>
+</g>
+<path d="M392 394 L498 394 L514 403 L372 403Z" fill="#AD91F0" stroke="#7054B2" stroke-width="3"/>
+<!-- books on the right -->
+<g stroke="#191724" stroke-width="5" stroke-linejoin="round">
+<path d="M617 379 L741 380 Q752 386 744 404 L622 404 Q608 398 617 379Z" fill="#A47DEB"/>
+<path d="M629 382 L730 382 Q722 391 730 400 L629 400Z" fill="#FFF8EE"/>
+<path d="M623 346 L736 341 Q747 345 742 368 L630 381 Q610 370 623 346Z" fill="url(#bookYellow)"/>
+<path d="M639 351 L733 346 Q726 355 734 363 L638 373Z" fill="#FFF4D3"/>
+</g>
+<!-- coffee mug left -->
+<g stroke="#191724" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+<path d="M146 332 C120 312 106 335 115 357 C122 375 141 375 150 366" fill="none"/>
+<path d="M146 319 L225 319 L219 407 Q180 419 150 404Z" fill="url(#cup)"/>
+<ellipse cx="184" cy="319" rx="41" ry="9" fill="#FFFCF6"/>
+<path d="M172 369 l-11 12 11 10 M190 369 l11 12 -11 10 M188 365 l-10 30" fill="none" stroke-width="4"/>
+</g>
+<g stroke="#191724" stroke-width="5" stroke-linecap="round" fill="none">
+<path d="M160 309 q-11 -16 0 -30 q10 -14 1 -28"/>
+<path d="M182 307 q-9 -11 0 -22 q10 -12 0 -25"/>
+</g>
+
+</svg>

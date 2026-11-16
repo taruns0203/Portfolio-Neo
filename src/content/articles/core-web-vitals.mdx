@@ -1,0 +1,143 @@
+<Callout variant="note">
+  This is a demonstration article, not a published case study. All illustrations
+  are local sample artwork. No performance measurements or project results are
+  claimed.
+</Callout>
+
+## Start with the reading experience
+
+A fast application helps people reach their goal without waiting for the interface to settle. For an editorial page, start with its most important content: the title, introduction, and first useful image. Keep that content available in the initial HTML, then add interaction where it serves the reader.
+
+Core Web Vitals describe loading, responsiveness, and visual stability. Use field data to understand actual visits and lab tools to investigate a reproducible problem. A single local run is a diagnostic clue, not evidence of how every visitor experiences a website.
+
+<ArticleImage
+  src="/images/blogs/article-core-web-vitals.svg"
+  alt="Sample illustration of a performance gauge"
+  width={800}
+  height={520}
+  caption="Demo artwork: a conceptual performance gauge, not a measured score."
+/>
+
+## Find the loading bottleneck
+
+Inspect the network waterfall before changing code. Is the important image discovered late? Is a stylesheet delaying rendering? Is a large client bundle doing work before the page responds? Choose one hypothesis, make one targeted change, and repeat the same test conditions.
+
+### Reserve image space
+
+Provide intrinsic dimensions so the browser can reserve space before an image arrives. Set a sizes value that reflects the actual layout, and write alt text that describes what the image contributes to the article.
+
+```tsx
+import Image from "next/image";
+
+export function ArticleIllustration() {
+  return (
+    <Image
+      src="/images/blogs/article-core-web-vitals.svg"
+      alt="Conceptual performance gauge"
+      width={800}
+      height={520}
+      sizes="(max-width: 768px) 100vw, 720px"
+    />
+  );
+}
+```
+
+<ArticleImage
+  src="/images/blogs/article-nextjs-performance.svg"
+  alt="Local sample illustration about Next.js performance"
+  width={800}
+  height={520}
+  caption="Demo illustration: loading performance. This is not a trace from a real application."
+/>
+
+## Keep interaction work focused
+
+Render static editorial content on the server. Give interactive controls small client boundaries: a copy button needs browser APIs; a paragraph does not. Measure expensive interactions before adding memoization or changing state management.
+
+<Callout variant="tip">
+  Test the interaction people actually perform. Opening a gallery, filtering a
+  list, and navigating between pages exercise different parts of an application.
+</Callout>
+
+The illustrations below represent two areas to investigate. Open either image to inspect it, then use Escape to return to the article.
+
+<ImageGallery
+  images={[
+    {
+      src: "/images/blogs/article-frontend-architecture.svg",
+      alt: "Sample frontend architecture illustration",
+      width: 800,
+      height: 520,
+      caption: "Demo artwork: frontend boundaries.",
+    },
+    {
+      src: "/images/blogs/article-caching.svg",
+      alt: "Sample caching illustration",
+      width: 800,
+      height: 520,
+      caption: "Demo artwork: cache delivery.",
+    },
+  ]}
+/>
+
+## Make delivery predictable
+
+A cache can avoid repeated work, but its policy must match how often content changes and whether responses contain personalized data. Document invalidation alongside the cache itself. Verify both a cold request and a repeat visit.
+
+<WideImage
+  src="/images/blogs/article-system-design.svg"
+  alt="Architecture placeholder showing a conceptual system, not the deployed application"
+  width={800}
+  height={520}
+  caption="Architecture diagram placeholder. Replace with the verified request path before publishing."
+/>
+
+| Concern        | Investigation                            | Possible change                               |
+| -------------- | ---------------------------------------- | --------------------------------------------- |
+| Loading        | Inspect resource discovery and waterfall | Make critical resources discoverable earlier  |
+| Responsiveness | Record the slow interaction              | Reduce long tasks and unnecessary client work |
+| Stability      | Watch image and font loading             | Reserve space and check fallback typography   |
+| Delivery       | Compare cold and warm requests           | Review cache policy and invalidation          |
+
+## Verify the whole page
+
+Check a narrow viewport as well as a large screen. Use the keyboard, increase text size, and enable reduced motion. Watch for clipped code, tables that widen the entire page, and media that shifts nearby text after loading.
+
+<ArticleImage
+  src="/images/blogs/article-frontend-architecture.svg"
+  alt="Conceptual frontend layout artwork"
+  width={800}
+  height={520}
+  caption="Third inline demo illustration: frontend layout and component boundaries."
+/>
+
+### Compare illustrations
+
+This control demonstrates an accessible before-and-after interaction using two different sample illustrations. It does not compare measured performance or show an actual redesign.
+
+<ImageCompare
+  before={{
+    src: "/images/blogs/article-nextjs-performance.svg",
+    alt: "Performance concept artwork",
+    width: 800,
+    height: 520,
+  }}
+  after={{
+    src: "/images/blogs/article-core-web-vitals.svg",
+    alt: "Web vitals concept artwork",
+    width: 800,
+    height: 520,
+  }}
+  caption="Interactive component demonstration only."
+/>
+
+<ArticleQuote>
+  Make the page useful first, then use measurements to decide what to improve
+  next.
+</ArticleQuote>
+
+## Keep a verification record
+
+Record the route, device assumptions, test conditions, and the change you made. Separate reproducible lab observations from field measurements. Recheck accessibility and functionality after an optimization: a faster page that loses essential behavior is not a successful outcome.
+
+Before turning this demonstration into a published article, replace the placeholders, add verified sources, and supply the real author and publication date.

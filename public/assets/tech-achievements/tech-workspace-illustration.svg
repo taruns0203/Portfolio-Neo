@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="345" viewBox="0 0 480 345" fill="none" role="img" aria-label="tech workspace illustration.svg">
+<defs>
+<linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#414153"/><stop offset="1" stop-color="#191724"/></linearGradient>
+<linearGradient id="case" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#E0C6FF"/><stop offset="0.55" stop-color="#AB78F9"/><stop offset="1" stop-color="#8661D8"/></linearGradient>
+<linearGradient id="leaf" x1="0" x2="1" y1="1" y2="0"><stop stop-color="#2DCE70"/><stop offset="1" stop-color="#81EF67"/></linearGradient>
+</defs>
+<!-- desk shadow --> <ellipse cx="255" cy="321" rx="211" ry="15" fill="#17121D" opacity=".15"/>
+<!-- plant leaves behind laptop -->
+<path d="M112 216 C95 177 64 155 49 144 C42 169 70 205 95 222Z" fill="url(#leaf)" stroke="#191724" stroke-width="6" stroke-linejoin="round"/>
+<path d="M108 223 C102 159 108 112 131 82 C154 117 146 168 127 229Z" fill="#4ADD76" stroke="#191724" stroke-width="6" stroke-linejoin="round"/>
+<path d="M129 222 C144 170 161 153 181 152 C185 190 165 215 142 234Z" fill="url(#leaf)" stroke="#191724" stroke-width="6"/>
+<path d="M91 225 L155 225 L148 292 Q125 306 100 292 Z" fill="#FFF7EE" stroke="#191724" stroke-width="6" stroke-linejoin="round"/>
+<path d="M92 229 L153 229" stroke="#A890A7" stroke-width="3"/>
+<!-- laptop main display -->
+<path d="M197 90 Q200 73 217 71 L379 71 Q397 72 399 91 L381 260 L171 260 Z" fill="url(#case)" stroke="#191724" stroke-width="8" stroke-linejoin="round"/>
+<path d="M213 99 L378 99 L363 233 L191 233 Z" fill="url(#screen)" stroke="#191724" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="292" cy="86" r="3.3" fill="#191724"/>
+<!-- colorful code mark -->
+<path d="M265 151 L238 177 L265 204" stroke="#70E2C6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M318 151 L343 177 L316 204" stroke="#F58CC9" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M302 139 L285 217" stroke="#B98DFF" stroke-width="9" stroke-linecap="round"/>
+<!-- laptop keyboard deck -->
+<path d="M171 252 L383 252 L421 306 Q425 315 413 317 L52 317 Q34 315 47 302 L171 252Z" fill="url(#case)" stroke="#191724" stroke-width="7" stroke-linejoin="round"/>
+<path d="M173 265 L373 265 L394 296 L90 296 Z" fill="#9D83D2"/>
+<g fill="#4A3E76" opacity=".9"><path d="M144 270 l17 0 l6 7 l-18 0 Z"/><path d="M166 270 l17 0 l6 7 l-18 0 Z"/><path d="M188 270 l17 0 l6 7 l-18 0 Z"/><path d="M210 270 l17 0 l6 7 l-18 0 Z"/><path d="M232 270 l17 0 l6 7 l-18 0 Z"/><path d="M254 270 l17 0 l6 7 l-18 0 Z"/><path d="M276 270 l17 0 l6 7 l-18 0 Z"/><path d="M298 270 l17 0 l6 7 l-18 0 Z"/><path d="M320 270 l17 0 l6 7 l-18 0 Z"/><path d="M342 270 l17 0 l6 7 l-18 0 Z"/><path d="M134 280 l17 0 l6 7 l-18 0 Z"/><path d="M156 280 l17 0 l6 7 l-18 0 Z"/><path d="M178 280 l17 0 l6 7 l-18 0 Z"/><path d="M200 280 l17 0 l6 7 l-18 0 Z"/><path d="M222 280 l17 0 l6 7 l-18 0 Z"/><path d="M244 280 l17 0 l6 7 l-18 0 Z"/><path d="M266 280 l17 0 l6 7 l-18 0 Z"/><path d="M288 280 l17 0 l6 7 l-18 0 Z"/><path d="M310 280 l17 0 l6 7 l-18 0 Z"/><path d="M332 280 l17 0 l6 7 l-18 0 Z"/><path d="M124 290 l17 0 l6 7 l-18 0 Z"/><path d="M146 290 l17 0 l6 7 l-18 0 Z"/><path d="M168 290 l17 0 l6 7 l-18 0 Z"/><path d="M190 290 l17 0 l6 7 l-18 0 Z"/><path d="M212 290 l17 0 l6 7 l-18 0 Z"/><path d="M234 290 l17 0 l6 7 l-18 0 Z"/><path d="M256 290 l17 0 l6 7 l-18 0 Z"/><path d="M278 290 l17 0 l6 7 l-18 0 Z"/><path d="M300 290 l17 0 l6 7 l-18 0 Z"/><path d="M322 290 l17 0 l6 7 l-18 0 Z"/></g><path d="M195 300 L269 300 L261 311 L179 311 Z" fill="#D9C1FB" opacity=".9"/>
+<!-- coffee cup overlapping laptop -->
+<path d="M380 238 C412 232 436 250 438 278 C439 296 425 312 405 315" fill="none" stroke="#191724" stroke-width="9" stroke-linecap="round"/>
+<path d="M375 252 C404 251 416 269 416 279 C416 296 401 303 391 304" fill="none" stroke="#FFF5DE" stroke-width="13"/>
+<path d="M329 226 Q332 213 353 210 L394 210 Q414 214 412 228 L407 304 Q404 317 391 318 L345 318 Q330 313 331 299Z" fill="#FFF7E4" stroke="#191724" stroke-width="7"/>
+<ellipse cx="369" cy="224" rx="39" ry="13" fill="#FFF7E4" stroke="#191724" stroke-width="6"/>
+<ellipse cx="369" cy="225" rx="30" ry="7" fill="#27212B"/>
+<path d="M352 268 L364 282 L351 294 M374 295 L394 295" stroke="#191724" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>

@@ -1,0 +1,72 @@
+@import "tailwindcss";
+@import "../styles/tokens.css";
+@import "../styles/typography.css";
+@import "../styles/utilities.css";
+@import "../styles/home.css";
+@import "../styles/about.css";
+@import "../styles/experience-projects.css";
+@import "../styles/tech-achievements.css";
+@import "../styles/performance.css";
+@import "../styles/current-work.css";
+@import "../styles/writing.css";
+@import "../styles/contact.css";
+@import "../styles/github.css";
+@import "../styles/section-decoration.css";
+@import "../styles/blogs.css";
+@import "../styles/article.css";
+@import "../styles/devtools.css";
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+  }
+  body {
+    background: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    font-size: var(--text-body);
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection {
+    background: var(--color-primary-soft);
+    color: var(--color-foreground);
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-focus);
+    outline-offset: 4px;
+  }
+  button:not(:disabled),
+  summary {
+    cursor: pointer;
+  }
+  button:disabled {
+    cursor: not-allowed;
+  }
+  svg {
+    flex-shrink: 0;
+  }
+  main {
+    min-width: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .control-motion {
+    transform: none !important;
+    translate: none !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

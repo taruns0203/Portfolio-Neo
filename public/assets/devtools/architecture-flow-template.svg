@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="250" viewBox="0 0 840 250"><rect width="840" height="250" rx="26" fill="#FFFCF7"/>
+<g font-family="Arial,sans-serif" font-weight="700" text-anchor="middle" fill="#21182E">
+<rect x="20" y="54" width="168" height="136" rx="20" fill="#FFE7A3" stroke="#21182E" stroke-width="4"/>
+<rect x="235" y="54" width="168" height="136" rx="20" fill="#E7D7FF" stroke="#21182E" stroke-width="4"/>
+<rect x="450" y="54" width="168" height="136" rx="20" fill="#CEF3DF" stroke="#21182E" stroke-width="4"/>
+<rect x="665" y="54" width="156" height="136" rx="20" fill="#FFD6E9" stroke="#21182E" stroke-width="4"/>
+<g font-size="25"><text x="104" y="108">▤</text><text x="319" y="108">◇</text><text x="534" y="108">▦</text><text x="743" y="108">▲</text></g>
+<g font-size="18"><text x="104" y="143">Browser</text><text x="319" y="143">Frontend</text><text x="534" y="143">Data Source</text><text x="743" y="143">Deployment</text></g>
+<g font-size="13" font-weight="500"><text x="104" y="165">User</text><text x="319" y="165">Next.js / React</text><text x="534" y="165">Content / APIs</text><text x="743" y="165">Hosting</text></g></g>
+<g fill="none" stroke="#21182E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M194 122h34m-8-8 8 8-8 8M409 122h34m-8-8 8 8-8 8M624 122h34m-8-8 8 8-8 8"/></g>
+<text x="20" y="226" font-size="14" font-family="Arial,sans-serif" fill="#71617C">Architecture template — replace nodes with verified portfolio stack</text></svg>
