@@ -30,7 +30,7 @@ const destinations = {
 } satisfies Record<string, SiteDestination>;
 
 export const site = {
-  url: "https://tarunsharma.dev",
+  url: "https://www.thecodesamurai.dev/",
   name: "Tarun Sharma",
   role: "Senior Full Stack Engineer",
   description:
